@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
 @import "reset.css";
 @import "topsection.css";
-@import "aboutme.css";
+@import "technologies.css";
+@import "portfoliosection.css";
 
 .container {
     max-width: 1150px;

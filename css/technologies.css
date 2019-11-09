@@ -1,8 +1,8 @@
-#about-me {
+#technologies {
     padding: 80px 15px;
 }
 
-#about-me .title {
+#technologies .title {
     position: relative;
     width: 200px;
     height: 200px;
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 
-#about-me .title .circle {
+#technologies .title .circle {
     position: absolute;
     background: #eef9ff;
     width: 150px;
@@ -21,7 +21,7 @@
     top: 23;
 }
 
-#about-me .title h1 {
+#technologies .title h1 {
     position: relative;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -31,20 +31,20 @@
     letter-spacing: 4px;
 }
 
-#about-me .about-container {
+#technologies .technologies-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
 }
 
-#about-me .about-container .box {
+#technologies .technologies-container .box {
     background: rgba(255, 255, 255, 0);
     padding: 40px;
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
 
-#about-me .about-container .box:hover {
+#technologies .technologies-container .box:hover {
     background: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
     -moz-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
@@ -52,17 +52,17 @@
 
 }
 
-#about-me .about-container .box .fas {
+#technologies .technologies-container .box .fas {
     font-size: 2rem;
     margin-bottom: 2rem;
  }
 
- #about-me .about-container .box .fab {
+ #technologies .technologies-container .box .fab {
     font-size: 2rem;
     margin-bottom: 2rem;
  }
 
-#about-me .about-container .box h5 {
+#technologies .technologies-container .box h5 {
    font-size: .9rem;
    font-weight: 700;
    text-transform: uppercase;
@@ -70,20 +70,20 @@
    margin-bottom: 2rem;
 }
 
-#about-me .about-container .box p {
+#technologies .technologies-container .box p {
     font-size: .8rem;
     line-height: 1.5;
     color: #b3b3b3;
 }
 
-#about-me .about-container .box.blue {
+#technologies .technologies-container .box.blue {
     border-bottom: 2px solid #52b8ff;
 }
 
-#about-me .about-container .box.red {
+#technologies .technologies-container .box.red {
     border-bottom: 2px solid #ff5253;
 }
 
-#about-me .about-container .box.yellow {
+#technologies .technologies-container .box.yellow {
     border-bottom: 2px solid #ffc853;
 }
