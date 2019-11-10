@@ -24,7 +24,6 @@ header .logo {
     text-transform: uppercase;
     color: white;
     display: flex;
-    
 }
 
 header .logo .name {
