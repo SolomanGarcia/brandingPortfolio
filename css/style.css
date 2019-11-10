@@ -3,6 +3,7 @@
 @import "topsection.css";
 @import "technologies.css";
 @import "portfoliosection.css";
+@import "about.css";
 
 .container {
     max-width: 1150px;
