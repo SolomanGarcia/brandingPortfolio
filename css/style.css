@@ -4,6 +4,7 @@
 @import "technologies.css";
 @import "portfoliosection.css";
 @import "about.css";
+@import "footer.css";
 
 .container {
     max-width: 1150px;
