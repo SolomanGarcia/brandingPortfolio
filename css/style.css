@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
 @import "reset.css";
-@import "topsection.css";
-@import "technologies.css";
-@import "portfoliosection.css";
-@import "about.css";
+@import "landingPage/topsection.css";
+@import "landingPage/technologies.css";
+@import "landingPage/portfoliosection.css";
+@import "landingPage/about.css";
+@import "portfolio/projects.css";
 @import "footer.css";
 
 .container {

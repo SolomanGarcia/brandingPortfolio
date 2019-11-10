@@ -65,7 +65,7 @@
 } */
 
 #top .img .background-img {
-    background: url("../images/tom.jpg"); 
+    background: url("../../images/tom.jpg"); 
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
