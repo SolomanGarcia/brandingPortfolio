@@ -125,11 +125,42 @@ color: #ffc853;
 
 /* Tablets */
 @media only screen and (max-width: 960px) {
+    #about-section .large-title {
+        font-size: 3rem;
+        left: 0;
+    }
 
+    #about-section .about-container .large-icons {
+        position: relative;
+        top: -25px;
+    }
+    #about-section .about-container .large-icons .square {
+        border: 30px solid #52b8ff;
+        padding: 5px;
+        display: inline-block;
+        position: relative;
+        top: 122px;
+        left: 48px;
+    }
 }
 /* Phones */
 @media only screen and (max-width: 767px) {
+    #about-section .large-title {
+        font-size: 2.5rem;
+        left: 0;
+    }
+
+    #about-section .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    #about-section .about-container .large-icons {
+       display: none;
+    }
     
+    #about-section .about-container .info .info-box h4 {
+        font-size: .9rem;
+     }
 }
 
 
