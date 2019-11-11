@@ -5,7 +5,7 @@
 #top .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 80px 0px;
+    padding: 30px 0px 80px 0px;
     align-items: center;
 }
 
@@ -71,7 +71,7 @@
     background-size: cover;
     width: 100%;
     max-width: 500px;
-    height: 800px;
+    height: 100vh;
     margin: 0 auto;
 }
 /* Tablets */
@@ -84,7 +84,7 @@
         display: none;
     }
 
-    #top .img .blue-square {
+    #top .img .background-img {
         height: 100vh;
     }
 }
@@ -98,7 +98,7 @@
         display: none;
     }
 
-    #top .img .blue-square {
+    #top .img .background-img {
         height: 100vh;
     }
 }
