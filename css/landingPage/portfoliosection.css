@@ -1,5 +1,5 @@
 #portfolio-section {
-    padding: 80px 15px;
+    padding: 0px 15px 80px 15px;
 }
 
 #portfolio-section .title {
@@ -15,8 +15,8 @@
 #portfolio-section .square {
     position: absolute;
     background: #ffeded;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     top: 23;
 }
 
@@ -33,7 +33,7 @@
 #portfolio-section .portfolio-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
     grid-gap: 10px;
 }
 
