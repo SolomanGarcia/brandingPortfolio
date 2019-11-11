@@ -1,6 +1,6 @@
-/* #top {
+#top {
     
-} */
+}
 
 #top .container {
     display: grid;
@@ -60,9 +60,9 @@
     
 }
 
-/* #top .img {
+#top .img {
 
-} */
+}
 
 #top .img .background-img {
     background: url("../../images/tom.jpg"); 
