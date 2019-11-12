@@ -55,11 +55,13 @@
 #technologies .technologies-container .box .fas {
     font-size: 2rem;
     margin-bottom: 2rem;
+    letter-spacing: 1rem;
  }
 
  #technologies .technologies-container .box .fab {
     font-size: 2rem;
     margin-bottom: 2rem;
+    letter-spacing: 1rem;
  }
 
 #technologies .technologies-container .box h5 {
