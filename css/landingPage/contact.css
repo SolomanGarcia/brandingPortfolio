@@ -1,5 +1,6 @@
 #contact {
     padding: 80px 15px;
+    background: linear-gradient(180deg, #FFC0CB 50%, #00FFFF 50%);
 }
 
 #contact .container {
@@ -16,6 +17,10 @@
     align-items: center;
     flex-direction: column;
 }
+
+/* #contact .form-container .form-title {
+    margin-bottom: 2rem;
+} */
 
 #contact .form-container .form {
     position: relative;
@@ -71,6 +76,43 @@
 #contact .form-container .form input:focus + .label-name::after, .form input:valid + .label-name::after {
     transform: translateX(0%);
 }
+
+#contact .form-container .content-email {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+#contact .form-container .form input:focus + .label-email .content-email, .form input:valid + .label-email .content-email {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #5fa8d3;
+}
+
+#contact .form-container .form input:focus + .label-email::after, .form input:valid + .label-email::after {
+    transform: translateX(0%);
+}
+
+#contact .form-container .content-textarea {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+#contact .form-container .form input:focus + .label-textarea .content-textarea, .form input:valid + .label-textarea .content-textarea {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #5fa8d3;
+}
+
+#contact .form-container .form input:focus + .label-textarea::after, .form input:valid + .label-textarea::after {
+    transform: translateX(0%);
+}
+
+
+
 
 
 
