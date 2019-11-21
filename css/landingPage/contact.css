@@ -1,0 +1,200 @@
+#contact-section {
+    padding: 40px 15px;
+    background-image: linear-gradient(#fff 18%, #f9fafc 18%);
+}
+
+#contact-section .contact-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 550px;
+
+}
+
+#contact-section .contact-container .contact-info {
+    padding: 40px;
+}
+
+#contact-section .contact-container .contact-info .title h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#contact-section .contact-container .contact-info .email {
+    padding: 30px;
+}
+
+#contact-section .contact-container .contact-info .email h4 {
+    font-size: 1.1rem;
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+
+#contact-section .contact-container .contact-info .email p {
+    font-size: 1.1rem;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;    
+    margin-left: 60px;
+}
+
+#contact-section .contact-container .contact-info .address {
+    padding: 30px;
+}
+
+#contact-section .contact-container .contact-info .address h4 {
+    font-size: 1.1rem;
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+
+#contact-section .contact-container .contact-info .address p {
+    font-size: 1.1rem;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+
+#contact-section .contact-container .contact-info .social-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 60px;
+    padding-top: 30px;
+}
+
+#contact-section .contact-container .contact-info .social-container a {
+    font-size: 3rem;
+    color: #aeaf91;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    padding: 10px;
+}
+
+#contact-section .contact-container .contact-info .social-container a:hover {
+    color: rgba(255, 53, 53, 1)
+}
+
+/* Contact Form */
+
+
+#contact-section .contact-container .box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#contact-section .contact-container .box {
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 500px;
+    height: 550px;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.box h2 {
+    margin: 0 0 40px;
+    padding: 0;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.box input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.box textarea {
+    height: 80px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.box input,
+.box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #919191;
+}
+
+.box textarea {
+    margin-bottom: 20px;
+}
+
+.box input[type="submit"] {
+    border-bottom: none;
+    cursor: pointer;
+    background: #52b8ff;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    
+}
+
+.box form div {
+    position: relative;
+}
+
+.box form div label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #919191;
+    pointer-events: none;
+    transition: .5s;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.box input:focus ~ label,
+.box textarea:focus ~ label,
+.box input:valid ~ label,
+.box textarea:valid ~ label {
+    top: -14px;
+    left: 0;
+    color: #52b8ff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box input:focus,
+.box textarea:focus,
+.box input:valid,
+.box textarea:valid {
+    border-bottom: 2px solid #52b8ff;
+}

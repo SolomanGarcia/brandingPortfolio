@@ -1,6 +1,6 @@
 #blog-section {
     padding: 70px 15px;
-    background: #f9fafc;
+    /* background: #f9fafc; */
    
 }
 
@@ -10,6 +10,7 @@
     font-weight: 900;
     margin-bottom: 80px;
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 #blog-section .blog-container {
